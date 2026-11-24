@@ -1,0 +1,26 @@
+export const DICT = {
+  en: {
+    role: 'Developer. I write Rust and TypeScript and live in Linux.',
+    about1: 'I build the tools I use myself: CLI utilities, desktop configs, bots and websites. I like things fast, with few dependencies, and tuned to my own workflow.',
+    about2: 'Daily driver: Arch Linux with Niri and Noctalia Shell. My own packages ship through a personal pacman repository.',
+    'p.elx': 'An ls replacement: grid, long and tree views, git status via gix, layered config, clickable OSC 8 links.',
+    'p.userbot': 'Telegram userbot on GramJS with LLMs (Gemini, Cerebras): translation, summaries, history search, reminders. SQLite via Drizzle, TUI monitor.',
+    'p.silverhand': 'Interactive Cyberpunk 2077 fan site: SAMURAI player, a virtual POSIX terminal with a puzzle, CRT mode.',
+    'p.pills': 'Minimal "pill" wallpaper generator right in the browser: OKLab gradients, PNG/SVG export, shareable recipe links.',
+    'p.calc': 'Arbitrary-precision integer calculator in two builds: GMP-backed (rug) for speed, pure Rust (dashu) for portability.',
+    'p.wallfetch': 'Extracts an ordered palette from the wallpaper and renders it into templates, e.g. fastfetch logo colors.',
+    also: 'also:',
+  },
+  ru: {
+    role: 'Разработчик. Пишу на Rust и TypeScript, живу в Linux.',
+    about1: 'Делаю инструменты, которыми пользуюсь сам: CLI-утилиты, конфиги рабочего стола, ботов и сайты. Люблю, когда быстро, с минимумом зависимостей и настроено под себя.',
+    about2: 'Основная система — Arch Linux с Niri и Noctalia Shell. Свои пакеты раздаю через личный pacman-репозиторий.',
+    'p.elx': 'Замена ls: сетка, таблица и дерево, git-статус через gix, слоистый конфиг, кликабельные OSC 8 ссылки.',
+    'p.userbot': 'Telegram-юзербот на GramJS с LLM (Gemini, Cerebras): перевод, саммари, поиск по истории, напоминания. SQLite через Drizzle, TUI-мониторинг.',
+    'p.silverhand': 'Интерактивный фан-сайт по Cyberpunk 2077: плеер SAMURAI, виртуальный POSIX-терминал с загадкой, CRT-режим.',
+    'p.pills': 'Генератор минималистичных обоев из «таблеток» прямо в браузере: OKLab-градиенты, экспорт PNG/SVG, ссылки-рецепты.',
+    'p.calc': 'Калькулятор целых чисел произвольной точности в двух сборках: на GMP (rug) ради скорости и на чистом Rust (dashu) ради переносимости.',
+    'p.wallfetch': 'Достаёт упорядоченную палитру из обоев и подставляет её в шаблоны — например, цвета логотипа fastfetch.',
+    also: 'ещё:',
+  },
+};

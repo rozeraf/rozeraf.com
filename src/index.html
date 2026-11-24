@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rozeraf</title>
+  <meta name="description" content="Raf (rozeraf) — developer. Rust, TypeScript, Linux.">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0b0c'/%3E%3Cpath d='M8 10l6 6-6 6' stroke='%237ee2a8' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M16 22h8' stroke='%23e6e6e6' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="term">
+    <header class="bar">
+      <span class="dots"><i></i><i></i><i></i></span>
+      <span class="title">raf@rozeraf: ~</span>
+      <button class="lang" id="lang" type="button" aria-label="Switch language">ru</button>
+    </header>
+
+    <div class="screen">
+      <section>
+        <p class="cmd"><span class="ps">~ $</span> whoami</p>
+        <h1>Raf <span class="dim">/ rozeraf</span></h1>
+        <p data-i18n="role"></p>
+      </section>
+
+      <section>
+        <p class="cmd"><span class="ps">~ $</span> cat about.txt</p>
+        <p data-i18n="about1"></p>
+        <p data-i18n="about2"></p>
+      </section>
+
+      <section>
+        <p class="cmd"><span class="ps">~ $</span> elx projects/</p>
+        <ul class="projects">
+        <li class="proj">
+          <div class="proj-head">
+            <a class="proj-name" href="https://github.com/rozeraf/elx">elx</a>
+            <span class="tag rs">Rust</span>
+          </div>
+          <p class="proj-desc" data-i18n="p.elx"></p>
+        </li>
+        <li class="proj">
+          <div class="proj-head">
+            <a class="proj-name" href="https://github.com/rozeraf/userbot">jarvis-userbot</a>
+            <span class="tag ts">TypeScript</span>
+          </div>
+          <p class="proj-desc" data-i18n="p.userbot"></p>
+        </li>
+        <li class="proj">
+          <div class="proj-head">
+            <a class="proj-name" href="https://github.com/rozeraf/silverhand">silverhand</a>
+            <span class="tag ts">TypeScript</span>
+            <a class="live" href="https://silverhand.pages.dev">silverhand.pages.dev ↗</a>
+          </div>
+          <p class="proj-desc" data-i18n="p.silverhand"></p>
+        </li>
+        <li class="proj">
+          <div class="proj-head">
+            <a class="proj-name" href="https://github.com/rozeraf/wallpaper-pills">wallpaper-pills</a>
+            <span class="tag js">JavaScript</span>
+            <a class="live" href="https://wallpaper-pills.pages.dev">wallpaper-pills.pages.dev ↗</a>
+          </div>
+          <p class="proj-desc" data-i18n="p.pills"></p>
+        </li>
+        <li class="proj">
+          <div class="proj-head">
+            <a class="proj-name" href="https://github.com/rozeraf/calculator-rs">calc</a>
+            <span class="tag rs">Rust</span>
+          </div>
+          <p class="proj-desc" data-i18n="p.calc"></p>
+        </li>
+        <li class="proj">
+          <div class="proj-head">
+            <a class="proj-name" href="https://github.com/rozeraf/wallfetch">wallfetch</a>
+            <span class="tag rs">Rust</span>
+          </div>
+          <p class="proj-desc" data-i18n="p.wallfetch"></p>
+        </li>
+        </ul>
+        <p class="also"><span data-i18n="also"></span>
+          <a href="https://github.com/rozeraf/dotfiles">dotfiles</a>,
+          <a href="https://github.com/rozeraf/raf-repo">raf-repo</a>,
+          <a href="https://github.com/rozeraf/desktop-stack">desktop-stack</a>,
+          <a href="https://github.com/rozeraf/tutors">tutors</a>
+        </p>
+      </section>
+
+      <section>
+        <p class="cmd"><span class="ps">~ $</span> cat stack.toml</p>
+        <dl class="stack">
+          <dt>lang</dt><dd>Rust · TypeScript · C · Kotlin · Python</dd>
+          <dt>tools</dt><dd>Bun · Neovim · Zed · Ghostty · Zsh · Git</dd>
+          <dt>os</dt><dd>Arch Linux · Niri · Noctalia Shell</dd>
+        </dl>
+      </section>
+
+      <section>
+        <p class="cmd"><span class="ps">~ $</span> contacts</p>
+        <ul class="contacts">
+          <li><span class="key">github</span><a href="https://github.com/rozeraf">github.com/rozeraf</a></li>
+          <li><span class="key">telegram</span><a href="https://t.me/rozeraf">t.me/rozeraf</a></li>
+          <li><span class="key">email</span><a href="mailto:me@rozeraf.com">me@rozeraf.com</a></li>
+        </ul>
+      </section>
+
+      <p class="cmd"><span class="ps">~ $</span> <span class="cursor"></span></p>
+    </div>
+  </main>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
